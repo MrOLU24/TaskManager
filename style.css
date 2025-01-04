@@ -3,3 +3,15 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+h1{
+    font-weight: bold;
+}
+.main-container{
+    width: 100%;
+    padding: 70px 0;
+    background: linear-gradient(45deg, black, blue);
+    color: white;
+}
+.wrapper{
+    height: 50px;
+}
