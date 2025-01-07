@@ -7,6 +7,7 @@ document.getElementById("TaskForm").addEventListener("submit", (e) => {
   let Todo = document.getElementById("AddTask").value;
   TaskManager.push({ Todo: Todo, status: "pending" });
   DisplayContent(TaskManager);
+  AddModal.hide()
 });
 console.log(TaskManager);
 
@@ -37,3 +38,4 @@ const DisplayContent = (data) => {
   });
 };
 DisplayContent(TaskManager);
+var AddModal = new bootstrap.Modal(document.getElementById('exampleModal'))
