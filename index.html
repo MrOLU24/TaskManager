@@ -71,6 +71,53 @@
         </div>
       </div>
     </div>
+    <!-- edit -->
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form id="EditForm">
+              <div class="mb-3">
+                <label for="">Task</label>
+                <input
+                  type="text"
+                  placeholder="Enter your task"
+                  class="form-control"
+                  id="EditTask"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="">status</label>
+                <select name="" id="EditStatus" class="form-control">
+                  <option value="pending">pending</option>
+                  <option value="incomplete">Incomplete</option>
+                  <option value="completed">complete</option>
+                </select>
+              </div>
+              <input type="text">
+              <input type="submit" value="Save Task" class="btn task-btn" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="./script.js"></script>
   </body>
 </html>
