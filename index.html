@@ -71,12 +71,10 @@
         </div>
       </div>
     </div>
-    <!-- edit -->
-
-    <!-- Modal -->
+    <!-- edit modal -->
     <div
       class="modal fade"
-      id="exampleModal"
+      id="Editmodal"
       tabindex="-1"
       aria-labelledby="exampleModalLabel"
       aria-hidden="true"
@@ -84,7 +82,7 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Task</h1>
             <button
               type="button"
               class="btn-close"
@@ -111,10 +109,12 @@
                   <option value="completed">complete</option>
                 </select>
               </div>
-              <input type="text">
+              <input type="hidden" id="taskid">
               <input type="submit" value="Save Task" class="btn task-btn" />
             </form>
           </div>
+          <input type="hidden" name="" id="TaskId">
+          <input type="submit" value="Save Task" class="btn task-btn">
         </div>
       </div>
     </div>
